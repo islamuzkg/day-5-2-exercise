@@ -39,9 +39,9 @@ print(student_scores)
 # Now you just need to code it up!
 
 max = 0
-for n in student_scores:
-  if n > max:
-    max = n
+for score in student_scores:
+  if score > max:
+    max = score
   else:
     max = max
 print(max)
